@@ -4,6 +4,7 @@
 [Contacts]()
 
   * [Export Contacts](contacts/export.md)
+  * [Export CSV for Production](contacts/export-show.md)
 
 [Passes]()
 
