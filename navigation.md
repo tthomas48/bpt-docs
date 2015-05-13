@@ -14,3 +14,4 @@
   * [Add a Donation Widget](widgets/donation.md)
 
 
+[gimmick:themechooser](Choose theme)
