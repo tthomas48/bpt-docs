@@ -13,4 +13,4 @@
 
   * [Add a Donation Widget](widgets/donation.md)
 
-[gimmick:theme](cereulean)
+[gimmick:theme](cerulean)
