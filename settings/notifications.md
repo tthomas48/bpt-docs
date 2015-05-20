@@ -1,4 +1,4 @@
-# Want to get notified on important events?
+# Want to get notified by email on important events?
 
 * Sign in to BuyPlayTix. 
 * Click on *Menu*

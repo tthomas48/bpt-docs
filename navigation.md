@@ -16,6 +16,6 @@
 
 [Settings]()
 
-  * [Notifications](settings/notifications.md)
+  * [Email Notifications](settings/notifications.md)
 
 [gimmick:theme](cerulean)
