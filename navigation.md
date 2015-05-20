@@ -15,6 +15,7 @@
   * [Add a Donation Widget](widgets/donation.md)
 
 [Settings]()
+
   * [Notifications](settings/notifications.md)
 
 [gimmick:theme](cerulean)
