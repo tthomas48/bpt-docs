@@ -1,6 +1,11 @@
 # BuyPlayTix
 
 [Home](index.md)
+[Reservations]()
+
+  * [Adding a Comp](reservations/add-comp.md)
+  * [Printing Reservations](reservations/print-list.md)
+
 [Contacts]()
 
   * [Export Contacts](contacts/export.md)
