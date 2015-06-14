@@ -1,0 +1,10 @@
+# Site settings
+title: BuyPlayTix Support
+email: support@buyplaytix.com
+description: "Ticketing for Makers"
+baseurl: ""
+url: "http://www.buyplaytix.com"
+
+# Build settings
+markdown: kramdown
+permalink: pretty

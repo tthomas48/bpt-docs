@@ -19,4 +19,8 @@
 
   * [Add a Donation Widget](widgets/donation.md)
 
+[Settings]()
+
+  * [Email Notifications](settings/notifications.md)
+
 [gimmick:theme](cerulean)
