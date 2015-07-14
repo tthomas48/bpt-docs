@@ -2,19 +2,14 @@
 A punch pass is a pass with a limited number of uses. If you bought a six punch pass you could redeem it for six tickets over the course of a season. Whether six tickets for a single show, or one ticket for six shows.
 
 ## How do I get started?
-First you need to create the pass. If you don't have a Passes link on the left hand side of BuyPlayTix:
+First you need to [enable passes](enable.md). It's disabled by default. 
 
-* Click on Settings
-* Click on Global Settings
-* Click on the Sales tab
-* Check the Passes checkbox
-* Click Save Changes
-
-Now that you have a Passes link
+Once that's done you'll have a link for Passes in your Menu bar.
 
 * Click on Passes
 * Click on Add Pass 
-* Fill in the fields and chose Punchcard Pass
+* Fill in the fields and choose Punchcard Pass
+* Add the number of Punches. 
 * Click Save Changes
 
 ## How do I specify which productions are eligible?

@@ -13,7 +13,9 @@
 
 [Passes]()
 
+  * [Enable Passes](passes/enable.md)
   * [Add a Punch Pass](passes/punchpass.md)
+  * [Add a Season Pass](passes/season.md)
 
 [Widgets]()
 
