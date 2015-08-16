@@ -24,5 +24,6 @@
 [Settings]()
 
   * [Email Notifications](settings/notifications.md)
+  * [Multiple Producers](settings/multipleproducers.md)
 
 [gimmick:theme](cerulean)
