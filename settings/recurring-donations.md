@@ -1,4 +1,4 @@
-# Want to allow your patrons to automatically donate to you ever month?
+# Want to allow your patrons to automatically donate to you every month?
 
 They will be presented with the option on the donation page.
 
