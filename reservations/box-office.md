@@ -9,8 +9,8 @@ The Box Office works with a mobile credit card scanner that hooks into the headp
 jack of supported tablets and phones. The Kindle Fire tablet is recommended as it's
 inexpensive and works well. The mobile credit card scanner needs an app to work.
 
-* [Kindle Fire App](https://www.amazon.com/Timothy-Thomas-BuyPlayTix-Ticketeer/dp/B06X1FYGVY/ref=pd_ybh_a_1?_encoding=UTF8&psc=1&refRID=CNZ9DW115E5W2PN17BHZ)
-* [Android App](https://play.google.com/store/apps/details?id=com.buyplaytix.ticketeer)
+* [Kindle Fire App](https://www.amazon.com/Timothy-Thomas-BuyPlayTix-Ticketeer/dp/B06X1FYGVY/)
+* [Android App](https://play.google.com/store/apps/details?id=com.buyplaytix.ticketeer.ticketeer)
 * [iPhone/iPad App](https://itunes.apple.com/us/app/ticketeer/id632225011)
 
 ### USB Scanner
