@@ -5,58 +5,37 @@ additional tickets and concessions.
 ## Credit Card Scanners
 
 ### Phone/Tablet Scanner
-The Box Office works with a mobile credit card scanner that hooks into the headphone
-jack of supported tablets and phones. The Kindle Fire tablet is recommended as it's
-inexpensive and works well. The mobile credit card scanner needs an app to work.
+The Box Office works with the [Collect for Stripe](https://collectforstripe.com/) app 
+and the [BBPOS Chipper card reader](https://dashboard.stripe.com/terminal/shop).
 
-* [Kindle Fire App](https://www.amazon.com/Timothy-Thomas-BuyPlayTix-Ticketeer/dp/B06X1FYGVY/)
-* [Android App](https://play.google.com/store/apps/details?id=com.buyplaytix.ticketeer.ticketeer)
-* [iPhone/iPad App](https://itunes.apple.com/us/app/ticketeer/id632225011)
+The Bluetooth reader supports newer chip cards and paying via card tap, and cellphone. It is
+the recommended way to take credit cards.
+
+* [iPhone App](https://itunes.apple.com/us/app/collect-for-stripe-instant/id1145604255?ls=1&mt=8)
+* [Android App](https://play.google.com/store/apps/details?id=com.odd.collectforstripe)
+
+You'll need to connect the Collect for Stripe app with your Stripe account before you can take tickets. 
+ 
 
 ### USB Scanner
-The USB scanner works with pretty much any computer and a web browser. Just plug it in.
+The USB scanner works with pretty much any computer and a web browser. It is, however, a less secure way to take 
+tickets. We'd recommend moving to the Chipper card reader.
 
 ## Getting Started
 
-### Web
+### Web and Mobile
 
-On the website click on Menu->Reservations. Choose the show date you want to take
+Login to BuyPlayTix. Then click on Menu->Reservations. Choose the show date you want to take
 tickets for and then click the Box Office icon.
 
 ![](img/boxoffice-icon.png "Icon")
 
 
-### Mobile
-To get started on your mobile device click the Ticketeer app. 
-
-![](img/icon.png "Icon")
-
-You should be presented with a login screen. 
-
-![](img/login.png "Login")
-
-Enter your BuyPlayTix username and password. There is also a demo account you can use
-for testing. Any credit cards scanned in the demo account will not be charged and
-the data will be reset every 15 minutes.
-
-To use the demo account login with:
-
-Username: demo
-
-Password: demo
-
-You'll next be prompted to choose your production and show date. Normally this 
- will automatically select the next show.
- 
-![](img/select-show.png "Select Show")
-
-Click "Start Taking Tickets" and you're ready to go.
- 
 ## The Register Tab
 
 The Register is the first tab and contains buttons with each item that
-you have setup to sell. There will be one button for each ticket price. Buttons
-for concessions. A button for donations, and finally a custom button that can
+you have setup to sell. There will be one button for each ticket price. You should see
+a button for concessions. There is a button for donations, and finally a custom button that can
 catch any oddities that may come up in a Box Office. And for some reason they
 always do.
  
@@ -82,21 +61,19 @@ passcode.
  
 #### Using the Mobile Scanner
 
-On the mobile app when you click the 'Credit' button you should see a prompt to 
-scan the card.
+To enable the mobile scanner you'll need to first enable Collect4Stripe, but you only need
+ to do this once. First click on the menu in the upper left hand corner of the box office (next to the
+ date):
 
-![](img/swipecard.png "Swipe Card")
+![](img/collect4stripe-menu.png "Top Menu")
 
-Swipe the card. You'll need to do it quickly and it can take a bit of practice
-to get used to it. I recommend testing it out with the demo account I mentioned in the 
-**Mobile** section above.
+Then toggle the Collect4Stripe setting:
 
-If it works you'll be prompted to enter an email address. That part is optional.
+![](img/collect4stripe-menubody.png "Collec4Stripe Toggle")
 
-If it succeeds you'll be returned to the register.
+Now when you click on the Credit option it will hand you off to the Collect for Stripe app. Once the charge
+is complete you'll be returned to the Box Office.
 
-When the mobile scanner doesn't work you can enter the credit card information manually
-by clicking the "Manual" button. It's not fun, but it works.
 
 #### Using the USB Scanner
 When you click the 'Credit' button on the website you'll see the manual credit card
@@ -180,15 +157,24 @@ And click the red Refund button on the page you're taken to.
 Picking up tickets is just a way of keeping track of which of your prepaid patrons
 have arrived.
 
-#### Scanning Tickets (Mobile Only)
+#### Scanning Tickets
 
-Scanning tickets only works on the mobile app with users who have printed the tickets
-or have them on their cell phone. Have the customer bring up the ticket. Then click
-the Scan button in the app.
+Scanning tickets works best on mobile, but could work with a webcam.  For  users who have printed the tickets
+or have them on their cell phone  have the customer bring up the ticket. Then click
+the Scan button in the app. 
 
-![](img/scan.png "Scan")
+![](img/scan-top.png "Scan")
 
-Your camera app should open up. Focus on the 2d barcode on the customers ticket and
+If you're holding your phone in portrait mode you might not see the Scan icon and might have to choose it from
+the menu. First click on the menu in the top left corner:
+
+![](img/collect4stripe-menu.png "Top Menu")
+
+Then click on Scan Barcode in the menu:
+
+![](img/scan-menu.png "Scan")
+
+A dialog will come up with a view from your camera. Focus on the 2d barcode on the customers ticket and
 it should automatically pickup the tickets and return you to the Register.
 
 ### Manual Pickup
@@ -220,13 +206,7 @@ You'll be prompted to be sure you want to do that.
 
 
 ## What if something goes wrong?
-First try clicking the refresh button.
-
-![](img/refresh.png "Refresh")
-
-If you're having trouble with the credit card swiper, try removing it and re-inserting it.
-
-Finally if things don't get better try killing the app, restarting your device, or
+First try clicking the refresh button in your browser. If things don't get better try restarting your device, or
 sending an email to <a href="mailto:support@buyplaytix.com">support@buyplaytix.com</a>
 
 
